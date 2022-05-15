@@ -1,0 +1,139 @@
+body {
+  font-family: Montserrat;
+}
+
+a {
+  color: inherit;
+}
+/*p{
+  font-size: 3rem;
+}*/
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4.875rem;
+  text-align: left;
+}
+
+#title {
+  background-color: #a4ebf3;
+  text-align: center;
+}
+.form {
+  width: 29.5rem;
+  padding: 3rem 5rem;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  opacity: 0.5rem;
+  padding-bottom: 30px;
+}
+input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid black;
+  color: black;
+  padding: 0 0 0.5rem;
+  outline: none;
+  width: 100%;
+}
+
+.submit-class {
+  display: block;
+  height: 20px;
+  width: 115px;
+}
+
+.submit-btn {
+  background-color: #0c6ff9;
+  border: 0;
+  border-radius: 2rem;
+  box-shadow: 0px 2px 0px rgb(0 0 0 / 20%);
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  margin: auto;
+  padding: 0.75rem 2rem;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+@media only screen and (max-width: 1028px) {
+  .form {
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+.container-fluid {
+  font-size: 20px;
+  padding: 5% 15%;
+}
+
+.col-lg-6 {
+  /*position: absolute;
+  left: 20%;*/
+  float: left;
+  left: 30px;
+}
+
+/*navigation-bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px 0;
+  color: black;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.navbar-nav {
+  color: black;
+}
+
+/* footer-section*/
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icon {
+  padding: 2% 2%;
+}
+
+.fa-instagram-square:hover {
+  color: #3fc5f0;
+}
+
+.fa-google:hover {
+  color: #f54291;
+}
+
+.fa-facebook:hover {
+  color: #a3f7bf;
+}
+
+.icon {
+  margin-right: 45px;
+}
