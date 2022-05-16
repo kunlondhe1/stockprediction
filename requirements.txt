@@ -11,7 +11,7 @@ ipaddr==2.2.0
 LunarCalendar==0.0.9
 lxml==4.8.0
 matplotlib==3.5.2
-numpy==1.22.3
+numpy
 ordereddict==1.1
 pandas==1.4.2
 plotly==5.8.0
